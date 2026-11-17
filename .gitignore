@@ -1,0 +1,31 @@
+node_modules/
+
+# Папки сборки TypeScript и бандлеров
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Логи
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Файлы окружения (секреты и ключи API)
+.env
+.env.local
+.env.*.local
+
+# Кэш и временные файлы
+.cache/
+.parcel-cache/
+.eslintcache
+
+# Системные файлы и настройки редакторов
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
